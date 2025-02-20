@@ -7,8 +7,8 @@ const app = express ();
 const PORT = 5000;
 
 app.use (cors({
-    origin: ["https://dtc-bus.vercel.app/",
-        "https://dtc-bus-user.vercel.app/",
+    origin: ["https://dtc-bus.vercel.app",
+        "https://dtc-bus-user.vercel.app",
     ]
 }));
 app.use (express.json ());
