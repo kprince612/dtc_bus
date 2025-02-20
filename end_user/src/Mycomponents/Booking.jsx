@@ -30,7 +30,7 @@ function Booking() {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/api/send-booking-info", {
+      const response = await axios.post("https://dtc-bus.vercel.app/api/send-booking-info", {
           name: bookingData.name,
           email: bookingData.email,
           phone: bookingData.phone,
@@ -95,7 +95,7 @@ function Booking() {
           time: bookingData.time,
         };
 
-        const response = await axios.post("http://127.0.0.1:5000/api/booking", {
+        const response = await axios.post("https://dtc-bus.vercel.app/api/booking", {
           ...bookingData,
           id: newticketId,
         });

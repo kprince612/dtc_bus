@@ -31,7 +31,7 @@ function Signup() {
 
     else {
       try {
-        const response = await axios.post ("http://127.0.0.1:5000/api/signup", signupData);
+        const response = await axios.post ("https://dtc-bus.vercel.app/api/signup", signupData);
         console.log ("signup data saved:", response.data);
 
         setSignupData ({

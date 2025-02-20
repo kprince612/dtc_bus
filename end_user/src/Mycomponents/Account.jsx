@@ -27,7 +27,7 @@ function Account() {
         }
 
         try {
-            const response = await axios.post("http://127.0.0.1:5000/api/fetchBookings", fetchBooking);
+            const response = await axios.post("https://dtc-bus.vercel.app/api/fetchBookings", fetchBooking);
 
             setbook (true);
 

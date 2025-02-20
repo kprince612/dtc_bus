@@ -6,12 +6,14 @@ const nodemailer = require ("nodemailer");
 const app = express ();
 const PORT = 5000;
 
-app.use (cors());
+app.use (cors({
+    origin: ["https://dtc-bus.vercel.app/"]
+}));
 app.use (express.json ());
 
 app.use (bodyParser.json ());
 
-mongoose.connect ("mongodb://127.0.0.1:27017/DTC_Data", {
+mongoose.connect ("mongodb+srv://p684188:Prince@123456@cluster0.c3uta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
 })
     .then (() => console.log ("connected to Mongodb"))
     .catch ((err) => console.log ("Mongodb connection error", err));
