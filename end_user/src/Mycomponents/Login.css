@@ -1,0 +1,18 @@
+.loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background: url("../Mycomponents/banner-bg_Urbun-3.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.loginContainer form h2 {
+    color: #007bff;
+    text-align: center;
+    font-size: 36px;
+}
+
+.loginContainer form input {
+    width: 97%;
+}

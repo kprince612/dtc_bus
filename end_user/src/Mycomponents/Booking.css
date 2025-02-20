@@ -1,0 +1,86 @@
+.bookingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 100px;
+    /* background: url("../Mycomponents/banner-bg_Urbun-3.jpg")no-repeat center center/cover; */
+}
+
+.bookingContainer form {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    margin-top: 75px;
+    width: 32%;
+}
+
+.bookingContainer h2 {
+    font-size: 32px;
+    color: forestgreen;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.bookingContainer label {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.bookingContainer form input {
+    height: 25px;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid darkcyan;
+}
+
+.bookingContainer select {
+    margin-right: 15px;
+    height: 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid darkcyan;
+    font-size: 16px;
+}
+
+.bookingContainer button {
+    height: 50px;
+    color: white;
+    background-color: darkcyan;
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+.bookingContainer form select {
+    width: 100%;
+}
+
+.qrcodeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.qrcodeContainer h2 {
+    margin-bottom: 25px;
+    font-size: 36px;
+    color: darkcyan;
+}
+
+.qrcodeContainer h4 {
+    margin-top: 25px;
+    color: rgb(53 84 47);
+    font-size: 24px;
+}
+
+.qrcodeContainer span {
+    margin-top: 20px;
+    font-size: 20px;
+}

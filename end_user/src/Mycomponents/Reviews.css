@@ -1,0 +1,27 @@
+.reviewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.reviewContainer form {
+    width: 40%;
+}
+
+.reviewContainer form textarea {
+    height: 75px;
+    width: 98%;
+    border-radius: 5px;
+}
+
+.reviewContainer form input {
+    width: 95%;
+}
+
+.reviewContainer form h2 {
+    text-align: center;
+    color: rgb(255, 109, 214);
+    font-size: 32px;
+    margin-bottom: 25px;
+}
